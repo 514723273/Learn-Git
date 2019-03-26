@@ -1,1 +1,1 @@
-test git rm test.md 能不能直接取到呀
+test git rm test.md
