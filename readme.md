@@ -35,12 +35,12 @@
 ## 分支管理
 |Git命令|地址|补充|
 | --- | --- | --- |
-|`test conflict master`|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
+|`git branch`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|查看分支|
+|`git branch <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|创建分支|
+|`git checkout <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|切换分支|
+|`git checkout -b <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|创建+切换分支|
+|`git merge <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|合并某分支到当前分支|
+|`git branch -d <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|删除分支|
 |``|[]()||
 
 
