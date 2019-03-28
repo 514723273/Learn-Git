@@ -46,16 +46,15 @@
 |`git stash pop`|[Bug分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)|取出所有的修改|
 |`git branch -D <branchName>`|[Feature分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376026233004c47f22a16d1f4fa289ce45f14bbc8f11000)|强行删除（大写的`-D`参数）|
 |`git checkout -b dev origin/dev`|[多人协作](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)|基于远程分支创建本地分支|
-|`git rebase origin/dev`|[Rebase](http://gitbook.liuhui998.com/4_2.html)|把分叉的提交历史“整理”成一条直线|
+|`git pull origin master`|[git pull命令](https://www.yiibai.com/git/git_pull.html)|取回远程主机某个分支的更新，再与本地的指定分支合并（实质是`fetch`和`merge`的结合）|
+|`git rebase origin/dev`|[git rebase命令](https://www.yiibai.com/git/git_rebase.html)|用于把一个分支的修改合并到当前分支|
 
 
 ## 标签管理
 |Git命令|地址|补充|
 | --- | --- | --- |
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
-|``|[]()||
+|`git tag v0.9 f52c633`|[创建标签](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951758572072ce1dc172b4178b910d31bc7521ee4000)|打一个新标签，默认标签是打在最新提交的commit上|
+|`git tag`|[创建标签](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951758572072ce1dc172b4178b910d31bc7521ee4000)|查看所有标签|
+|`git tag -d v0.1`|[操作标签](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951885068a0ac7d81c3a64912b35a59b58a1d926b000)|标签打错了，可以删除（创建的标签都只存储在本地，不会自动推送到远程）|
+|`git push origin <tagname>`|[操作标签](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951885068a0ac7d81c3a64912b35a59b58a1d926b000)|推送某个标签到远程|
+|`git push origin --tags`|[操作标签](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951885068a0ac7d81c3a64912b35a59b58a1d926b000)|一次性推送全部尚未推送到远程的本地标签|
