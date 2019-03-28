@@ -249,3 +249,7 @@ git push --set-upstream origin master
 真的有bug吗，我在这边镇守！
 
 从不对已推送至别处的提交执行变基操作
+
+我就是BUG 快来删掉我 这就是冲突
+
+是拉去远程仓库分支代码
