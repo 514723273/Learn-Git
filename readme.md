@@ -45,6 +45,7 @@
 |`git stash`|[Bug分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)|把当前工作现场“储藏”起来（即版本最初始状态）（用于切换分支解决其他问题，返回现场）|
 |`git stash pop`|[Bug分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)|取出所有的修改|
 |`git branch -D <branchName>`|[Feature分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376026233004c47f22a16d1f4fa289ce45f14bbc8f11000)|强行删除（大写的`-D`参数）|
+|`git checkout -b dev origin/dev`|[多人协作](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)|基于远程分支创建本地分支|
 
 ## 标签管理
 |Git命令|地址|补充|
