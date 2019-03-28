@@ -240,3 +240,10 @@ git push -u origin master
 git push --set-upstream origin master
 
 加了参数-u后，以后即可直接用git push 代替git push origin master
+
+
+# git rebase 变基
+
+只对尚未推送或分享给别人的本地修改执行变基操作清理历史；
+
+从不对已推送至别处的提交执行变基操作
