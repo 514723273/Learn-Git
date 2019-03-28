@@ -41,8 +41,10 @@
 |`git checkout -b <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|创建+切换分支|
 |`git merge <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|合并某分支到当前分支|
 |`git branch -d <branchName>`|[创建与合并分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)|删除分支|
-|``|[]()||
-|``|[]()||
+|`git stash`|[Bug分支](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)|把当前工作现场“储藏”起来（用于切换分支解决其他问题，返回现场）|
+||[]()||
+||[]()||
+||[]()||
 
 
 ## 标签管理
